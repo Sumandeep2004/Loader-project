@@ -1,0 +1,36 @@
+body{
+    background-color:paleturquoise;
+}
+
+
+
+
+#container{
+    height:100%;
+    width: 100%;
+    margin-top: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#loader{
+
+    height: 200px;
+    width:200px;
+    border: solid black 4px;
+    border-top:solid blue 4px ;
+    border-radius: 50%;
+    animation: loadinganimation 1s ease-in 0s infinite normal;
+    margin: 0;}
+    
+@keyframes loadinganimation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
